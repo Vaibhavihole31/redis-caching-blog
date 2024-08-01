@@ -1,22 +1,3 @@
-# Caching in Node.js using Redis
-
-Caching is a technique used in computing to store frequently accessed data or resources in a temporary storage area called a cache. When an application needs to access the data or resource, it first checks the cache to see if a copy is available. If it is, the data is returned from the cache, which is faster than fetching the data from the original source. If the data is not in the cache, the application fetches it from the original source, stores a copy of it in the cache, and returns the data to the application.
-
-Caching is used to speed up access to frequently accessed data, which improves application performance. By storing data in a cache, the application can reduce the amount of time it takes to access the data, which can help to reduce latency and improve user experience. Caching can be used in a variety of applications and systems, including web applications, databases, file systems, and more.
-
-## Installation
-
-To install node-redis, simply:
-
-```js
-npm install redis
-```
-
-## Documentaion
-
-[Node-Redis](https://www.npmjs.com/package/redis)
-
-[Redis](https://medium.com/@juwelariful1/what-is-redis-and-why-with-use-case-1b294b91e373)
 
 ## Caching vs. Non-Caching: API Response Time Comparison
 
